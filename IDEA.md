@@ -38,7 +38,7 @@
 - Account
 - Date (can be in the future)
   - If in the future, the transaction must be explicitly marked as "completed" and will be marked "overdue" past the date if not yet marked as completed
-  - Will not affect balance until marked completed.
+  - Will not affect balance until marked completed; but **will** be shown as `planned` and a portion of bars on graphs.
   - https://www.npmjs.com/package/rrule
 - Amount
 - Tags
